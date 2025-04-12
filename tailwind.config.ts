@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// DevOps Pipeline Builder theme colors
+				devops: {
+					blue: '#0079BF',
+					navy: '#172B4D',
+					gray: '#F4F5F7',
+					green: '#36B37E',
+					red: '#FF5630',
+					yellow: '#FFAB00',
 				}
 			},
 			borderRadius: {
